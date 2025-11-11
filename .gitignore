@@ -1,0 +1,132 @@
+# ==========================================================
+# Unity Project Git Ignore
+# Source: https://github.com/github/gitignore/blob/main/Unity.gitignore
+# Cleaned & Organized by Ali Wafa
+# ==========================================================
+
+
+# ----------------------------------------------------------
+# 🔹 Unity Generated Folders
+# ----------------------------------------------------------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+CCDBuildData/
+
+
+# ----------------------------------------------------------
+# 🔹 IDE / Editor Folders
+# ----------------------------------------------------------
+.vs/
+.idea/
+.vscode/
+.consulo/
+
+
+# ----------------------------------------------------------
+# 🔹 Gradle / Build System
+# ----------------------------------------------------------
+.gradle/
+
+
+# ----------------------------------------------------------
+# 🔹 Unity Auto-Generated Files
+# ----------------------------------------------------------
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.pidb.meta
+*.pdb
+*.pdb.meta
+*.mdb
+*.mdb.meta
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+*.log
+.utmp
+mono_crash.*
+
+
+# ----------------------------------------------------------
+# 🔹 Asset and Plugin Cache
+# ----------------------------------------------------------
+#[Aa]ssets/AssetStoreTools*
+[Aa]ssets/Plugins/Editor/JetBrains*
+*.DotSettings.user
+
+
+# ----------------------------------------------------------
+# 🔹 Addressables / Streaming Assets
+# ----------------------------------------------------------
+/ServerData
+[Aa]ssets/StreamingAssets/aa*
+[Aa]ssets/AddressableAssetsData/link.xml*
+[Aa]ssets/Addressables_Temp*
+[Aa]ssets/AddressableAssetsData/*/*.bin*
+[Aa]ssets/StreamingAssets/aa.meta
+
+
+# ----------------------------------------------------------
+# 🔹 Visual Scripting Generated Files
+# ----------------------------------------------------------
+[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+
+# ----------------------------------------------------------
+# 🔹 Crash Reports / Logs
+# ----------------------------------------------------------
+sysinfo.txt
+crashlytics-build.properties
+
+
+# ----------------------------------------------------------
+# 🔹 Builds / Packages
+# ----------------------------------------------------------
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+
+# ----------------------------------------------------------
+# 🔹 Test Runner / Auto Scenes
+# ----------------------------------------------------------
+[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+
+# ----------------------------------------------------------
+# 🔹 Blender Auto Backups
+# ----------------------------------------------------------
+*.blend1
+*.blend1.meta
+
+
+# ----------------------------------------------------------
+# 🔹 Odin Inspector (optional - ignore if not using)
+# ----------------------------------------------------------
+[Aa]ssets/Plugins/Sirenix*
+[Aa]ssets/_Project/Plugins/Sirenix*
+
+
+# ----------------------------------------------------------
+# 🔹 Firebase Large Files (adjust version if needed)
+# ----------------------------------------------------------
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_5_0.bundle
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_5_0.so
